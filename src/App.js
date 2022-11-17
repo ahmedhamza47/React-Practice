@@ -1,16 +1,18 @@
 import { useState } from "react";
 
-//import FormValidation from "./formValidation";
+import FormValidation from "./FormValidation/formValidation";
 //import ContextAPI from "./contextAPI";
-import CouterApp from "./couterApp/CouterApp";
-import Todo from "./todo/Todo";
+//import CouterApp from "./couterApp/CouterApp";
+//import Todo from "./todo/Todo";
+import ContactForm from "./contactForm/ContactForm";
 function App() {
   return (
     <>
-      {/* <FormValidation /> */}
+      <FormValidation />
       {/* <ContextAPI /> */}
-      <Todo />
+      {/* <Todo /> */}
       {/* <CouterApp /> */}
+      {/* <ContactForm /> */}
     </>
   );
 }

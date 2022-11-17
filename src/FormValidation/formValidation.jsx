@@ -28,12 +28,14 @@ function FormValidation() {
 
       validationSchema: signUpValidation,
       onSubmit: (values, a) => {
-        console.log(values);
-        console.log(a);
+        //  console.log(values);
+        // console.log(a);
+        console.log("submitted");
         a.resetForm();
       },
     });
-  console.log(handleChange);
+  // console.log(handleChange);
+
   return (
     <>
       <div className="container justify-content-center text-center mt-3">
@@ -44,7 +46,6 @@ function FormValidation() {
           <Input
             type="text"
             name="name"
-            autoComplete="off"
             placeholder="enter your name"
             value={values.name}
             onChange={handleChange}
@@ -58,7 +59,6 @@ function FormValidation() {
             type="email"
             name="email"
             placeholder="enter email"
-            autoComplete="off"
             value={values.email}
             onChange={handleChange}
             onBlur={handleBlur}
