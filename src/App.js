@@ -2,7 +2,7 @@
 
 //import FormValidation from "./FormValidation/formValidation";
 //import ContextAPI from "./contextAPI";
-//import CouterApp from "./couterApp/CouterApp";
+import CouterApp from "./couterApp/CouterApp";
 //import Todo from "./todo/Todo";
 //import ContactForm from "./contactForm/ContactForm";
 //import Axios from "./axios/Axios";
@@ -14,11 +14,11 @@ function App() {
       {/* <FormValidation /> */}
       {/* <ContextAPI /> */}
       {/* <Todo /> */}
-      {/* <CouterApp /> */}
+      <CouterApp />
       {/* <ContactForm /> */}
       {/* <Axios /> */}
       {/* <ContextAPI /> */}
-      <CustomHook />
+      {/* <CustomHook /> */}
     </>
   );
 }
